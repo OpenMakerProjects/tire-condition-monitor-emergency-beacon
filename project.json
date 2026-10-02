@@ -1,0 +1,20 @@
+{
+  "id": 789,
+  "title": "Tire Condition Monitor Emergency Beacon",
+  "repository_slug": "tire-condition-monitor-emergency-beacon",
+  "category": "Smart Vehicles",
+  "platform": "Teensy 4.1",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "LoRa",
+  "components": [
+    "cellular modem",
+    "temperature sensor"
+  ],
+  "scope": "Build a smart vehicles prototype that uses cellular modem, temperature sensor to send location after a confirmed emergency. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Emergency Beacon demonstration with repeatable test steps",
+  "mode": "safety_latch",
+  "entrypoint": "firmware/tire-condition-monitor-emergency-beacon/tire-condition-monitor-emergency-beacon.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
